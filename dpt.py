@@ -8,8 +8,8 @@ from timm.models.layers import DropPath, to_2tuple, trunc_normal_
 from timm.models.registry import register_model
 from timm.models.vision_transformer import _cfg
 
-# from .box_coder import *
-# from .depatch_embed import Simple_DePatch
+from .box_coder import *
+from .depatch_embed import Simple_DePatch
 
 __all__ = [
     'dpt_tiny', 'dpt_small', 'dpt_medium'
