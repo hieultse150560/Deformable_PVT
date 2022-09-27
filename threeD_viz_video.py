@@ -249,5 +249,3 @@ def generateVideo(data, path, heatmap, tile_coord=tile_pos):
 
         out.write(image)
     exit(0)
-Footer
-© 2022 GitHub, Inc.
